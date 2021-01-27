@@ -1,0 +1,160 @@
+* {
+    margin-left: 20px;
+}
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    border: solid white;
+    box-shadow: 10px 10px 5px rgb(202, 202, 202);
+}
+
+header a {
+    margin-left: 1000px;
+}
+
+main label {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+#title {
+    width: 30%;
+    height: 30px;
+}
+
+#content {
+    width: 50%;
+    height: 90px;
+}
+
+
+.grid-container {
+    height: 50vh;
+    border: 5px solid #ffffff;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 10px;
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+}
+
+.grid-item {
+    padding: 20px;
+    box-shadow: 10px 10px 5px rgb(201, 226, 233);
+    border-radius: 7px;
+}
+
+p h1 {
+    padding: 20px;
+}
+
+article button {
+    color: white;
+    background-color: rgb(166, 228, 223);
+    border: none;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+article button:hover {
+    background-color: rgb(222, 222, 223);
+}
+
+form button {
+    border: none;
+    background-color: rgb(166, 228, 223);
+    color: white;
+    border-radius: 7px;
+    padding: 8px;
+    width: 65px;
+    margin-left: 630px;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color:rgb(222, 222, 223) ;
+}
+
+
+@media screen and (max-width: 800px) {
+    * {
+        margin-left: 20px;
+    }
+    header h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    header {
+        border: solid white;
+        box-shadow: 10px 10px 5px rgb(202, 202, 202);
+    }
+    
+    header a {
+        margin-left: 1000px;
+    }
+    
+    main label {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        
+    }
+    
+    #title {
+        width: 30%;
+        height: 30px;
+    }
+    
+    #content {
+        width: 50%;
+        height: 90px;
+    }
+    
+    
+    .grid-container {
+        height: 50vh;
+        border: 5px solid #ffffff;
+        display: grid;
+        grid-template-columns: 300px;
+        padding: 10px;
+        grid-row-gap: 40px;
+        grid-column-gap: 40px;
+    }
+    
+    .grid-item {
+        padding: 20px;
+        box-shadow: 10px 10px 5px rgb(201, 226, 233);
+        border-radius: 7px;
+    }
+    
+    p h1 {
+        padding: 20px;
+    }
+    
+    article button {
+        color: white;
+        background-color: rgb(166, 228, 223);
+        border: none;
+        padding: 8px;
+        border-radius: 7px;
+    }
+    
+    article button:hover {
+        background-color: rgb(222, 222, 223);
+    }
+    
+    form button {
+        border: none;
+        background-color: rgb(166, 228, 223);
+        color: white;
+        border-radius: 7px;
+        padding: 8px;
+        width: 65px;
+        margin-left: 630px;
+        margin-top: 20px;
+    }
+    
+    form button:hover {
+        background-color:rgb(222, 222, 223) ;
+    }
+}
